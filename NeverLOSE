@@ -129,7 +129,7 @@ function Library:Window(options)
     Body.Name = "Body"
     Body.Parent = SG
     Body.AnchorPoint = Vector2.new(0.5, 0.5)
-    Body.BackgroundColor3 = Color3.fromRGB(3, 6, 48) -- Changed to match SideBar
+    Body.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- Changed to match SideBar
     Body.BorderSizePixel = 0
     Body.Position = UDim2.new(0.465730786, 0, 0.5, 0)
     Body.Size = UDim2.new(0, 658, 0, 516)
